@@ -1,9 +1,19 @@
 body {
     background-color: black;
+    align-content: center;
+    text-align: center;
 }
 p{
     color: green;
 }
-a {
-    
+a:link, a:visited {
+    background-color: #163DDB;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: blue;
 }
